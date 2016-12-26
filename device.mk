@@ -41,8 +41,8 @@ include $(COMMON_PATH)/qcom/fm.mk
 include $(COMMON_PATH)/qcom/media.mk
 include $(COMMON_PATH)/qcom/power.mk
 
-# Include Cyanogen product fragments
-include $(COMMON_PATH)/cyanogen/livedisplay.mk
+# Include Mokee product fragments
+include $(COMMON_PATH)/mokee/livedisplay.mk
 
 # Include device-specific product fragments
 include $(LOCAL_PATH)/product/specific/*.mk

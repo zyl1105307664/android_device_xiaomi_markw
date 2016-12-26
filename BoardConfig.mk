@@ -49,8 +49,8 @@ include $(COMMON_PATH)/qcom/ril.mk
 include $(COMMON_PATH)/qcom/sepolicy.mk
 include $(COMMON_PATH)/qcom/time.mk
 
-# Inherit Cyanogen board fragments
-include $(COMMON_PATH)/cyanogen/hardware.mk
+# Inherit Mokee board fragments
+include $(COMMON_PATH)/mokee/hardware.mk
 
 # Inherit device-specific board fragments
 include $(DEVICE_PATH)/board/specific/*.mk
